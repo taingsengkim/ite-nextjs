@@ -10,7 +10,7 @@ export default async function ProductPage() {
     <div className="flex container mx-auto  flex-wrap justify-center  gap-10 mt-10">
       {res?.map((d: ProductType) => (
         <div>
-          <CardProduct props={d} />
+          <CardProduct props={d} key={d.title} />
         </div>
       ))}
     </div>
