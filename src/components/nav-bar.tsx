@@ -19,12 +19,12 @@ export function NavbarComponent() {
         <Image
           width={50}
           height={50}
-          src="https://i.pinimg.com/736x/1a/95/10/1a9510383b00da8fa07fdd8705613871.jpg"
+          src="https://template.canva.com/EAGR4J_-jYM/2/0/1600w-zxo07UzxTDw.jpg"
           className="mr-3 h-6 sm:h-9"
           alt="Flowbite React Logo"
         />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-          Flowbite React
+          Shoppie-ITE
         </span>
       </NavbarBrand>
       <div className="flex md:order-2">
@@ -57,10 +57,8 @@ export function NavbarComponent() {
         <NavbarLink href="/" active>
           Home
         </NavbarLink>
-        <NavbarLink href="/products">Product</NavbarLink>
-        <NavbarLink href="/cart">Cart</NavbarLink>
+        <NavbarLink href="/cart">Cart ( Test useState )</NavbarLink>
         <NavbarLink href="/blog">Blog</NavbarLink>
-        <NavbarLink href="/contact">Contact</NavbarLink>
       </NavbarCollapse>
     </Navbar>
   );

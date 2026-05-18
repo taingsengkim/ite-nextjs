@@ -26,9 +26,10 @@ export function FooterComponent() {
           <div>
             <FooterBrand
               href="https://flowbite.com"
-              src="https://flowbite.com/docs/images/logo.svg"
+              src="https://template.canva.com/EAGR4J_-jYM/2/0/1600w-zxo07UzxTDw.jpg"
               alt="Flowbite Logo"
-              name="Flowbite"
+              name="Shoppie"
+              className="w-50"
             />
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">

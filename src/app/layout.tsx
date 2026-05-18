@@ -52,7 +52,7 @@ export default function RootLayout({
     >
       <body className="min-h-full  flex flex-col">
         <NavbarComponent />
-        {children}
+        <div>{children}</div>
         <FooterComponent />
       </body>
     </html>

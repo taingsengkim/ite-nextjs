@@ -1,0 +1,6 @@
+export type productType={
+    title:string,
+    description:string,
+    image:string,
+    price:number    
+}

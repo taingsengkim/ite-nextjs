@@ -8,25 +8,25 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import ProductType from "@/types/product";
+import { productType } from "@/lib/product/product-type";
 
-export function CardProduct({ props }: { props: ProductType }) {
+export function CardProduct({ title, description, image, price }: productType) {
   return (
     <Card className="relative mx-auto w-full max-w-sm pt-0">
       <img
-        src={props.images[0]}
+        src={image}
         alt="Event cover"
         className="relative z-20 aspect-video w-full object-cover brightness-80"
       />
       <CardHeader>
         <CardAction>
           <div className="p-2 bg-amber-100  ">
-            <Badge variant="secondary">{props.category.name}</Badge>
+            <Badge variant="secondary">{price}$</Badge>
           </div>
         </CardAction>
-        <CardTitle>{props.title}</CardTitle>
+        <CardTitle>{title}</CardTitle>
         <CardDescription>
-          <p className="line-clamp-2">{props.description}</p>
+          <p className="line-clamp-2">{description}</p>
         </CardDescription>
       </CardHeader>
       <CardFooter>
