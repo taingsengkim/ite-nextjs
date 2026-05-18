@@ -50,7 +50,7 @@ export default function RootLayout({
         playfairDisplayHeading.variable,
       )}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full  flex flex-col">
         <NavbarComponent />
         {children}
         <FooterComponent />
