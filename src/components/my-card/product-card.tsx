@@ -30,7 +30,7 @@ export function CardProduct({ title, description, image, price }: productType) {
         </CardDescription>
       </CardHeader>
       <CardFooter>
-        <Button className="w-full">View Event</Button>
+        <Button className="w-full">Add To Cart</Button>
       </CardFooter>
     </Card>
   );
