@@ -59,6 +59,9 @@ export function NavbarComponent() {
         </NavbarLink>
         <NavbarLink href="/cart">Cart ( Test useState )</NavbarLink>
         <NavbarLink href="/blog">Blog</NavbarLink>
+        <NavbarLink href="/demo-route/blog">
+          Blog ( Fetching api during class ( 5,19 ) )
+        </NavbarLink>
       </NavbarCollapse>
     </Navbar>
   );
