@@ -10,7 +10,7 @@ export default async function BlogSlug({
   return (
     <div>
       <h1>This is in dynamic route ( [slug] )</h1>
-      <BlogDetailDummy id={Number(slug)} />
+      <BlogDetailDummy id={slug} />
     </div>
   );
 }
