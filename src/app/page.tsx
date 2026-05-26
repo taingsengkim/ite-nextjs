@@ -4,6 +4,7 @@ import BlogComponent from "@/components/BlogComponents";
 import { productType } from "@/lib/product/product-type";
 import { CardProduct } from "@/components/my-card/product-card";
 import Pagination from "@/components/pagination";
+import Link from "next/link";
 
 export default function Home() {
   const products: productType[] = [
@@ -109,6 +110,7 @@ export default function Home() {
             />
           ))}
         </div>
+        <Link href={"/dashboard"}>Go to dashbaord</Link>
         <Pagination />
       </div>
     </div>
